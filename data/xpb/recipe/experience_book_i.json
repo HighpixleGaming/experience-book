@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#g#",
+		"lbl",
+		"#g#"
+	],
+	"key": {
+		"#": [
+			"minecraft:copper_block"
+		],
+		"b": [
+			"minecraft:book"
+		],
+		"g": [
+			"minecraft:glass_bottle"
+		],
+
+		"l": ["minecraft:lapis_lazuli"
+	]
+
+		
+	},
+	"result": {
+		"id": "minecraft:enchanted_book",
+		"components": {
+			"minecraft:custom_data": {
+				"xpb_experience_book": true,
+				"xpb_points": 0,
+				"xpb_max": 500,
+				"xpb_tier":1
+			},
+			"minecraft:custom_name": "{\"color\":\"green\",\"italic\":false,\"text\":\"Experience Book I\"}",
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:consumable": {
+				"consume_seconds": 9999,
+				"animation": "none"
+			},
+			"minecraft:lore": [
+				"{\"color\":\"gray\",\"italic\":false,\"text\":\"Points: 0/500\"}"
+			]
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#g#",
+		"lbl",
+		"#g#"
+	],
+	"key": {
+		"#": [
+			"minecraft:gold_block"
+		],
+		"b": [
+			"minecraft:book"
+		],
+		"g": [
+			"minecraft:experience_bottle"
+		],
+
+		"l": ["minecraft:lapis_block"
+	]
+
+		
+	},
+	"result": {
+		"id": "minecraft:enchanted_book",
+		"components": {
+			"minecraft:custom_data": {
+				"xpb_experience_book": true,
+				"xpb_points": 0,
+				"xpb_max": 5000,
+				"xpb_tier":2
+			},
+			"minecraft:custom_name": "{\"color\":\"green\",\"italic\":false,\"text\":\"Experience Book II\"}",
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:consumable": {
+				"consume_seconds": 9999,
+				"animation": "none"
+			},
+			"minecraft:lore": [
+				"{\"color\":\"gray\",\"italic\":false,\"text\":\"Points: 0/5000\"}"
+			]
+		}
+	}
+}

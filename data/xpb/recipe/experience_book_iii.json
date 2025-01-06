@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#g#",
+		"lbl",
+		"#g#"
+	],
+	"key": {
+		"#": [
+			"minecraft:diamond_block"
+		],
+		"b": [
+			"minecraft:book"
+		],
+		"g": [
+			"minecraft:dragon_breath"
+		],
+
+		"l": ["minecraft:enchanting_table"
+	]
+
+		
+	},
+	"result": {
+		"id": "minecraft:enchanted_book",
+		"components": {
+			"minecraft:custom_data": {
+				"xpb_experience_book": true,
+				"xpb_points": 0,
+				"xpb_max": 50000,
+				"xpb_tier":3
+			},
+			"minecraft:custom_name": "{\"color\":\"green\",\"italic\":false,\"text\":\"Experience Book III\"}",
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:consumable": {
+				"consume_seconds": 9999,
+				"animation": "none"
+			},
+			"minecraft:lore": [
+				"{\"color\":\"gray\",\"italic\":false,\"text\":\"Points: 0/50000\"}"
+			]
+		}
+	}
+}
